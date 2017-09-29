@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceRoot}/bin/Debug/netcoreapp2.0/DiceApi.dll",
+            "program": "${workspaceRoot}/src/DiceApi/bin/Debug/netcoreapp2.0/DiceApi.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false,

@@ -7,7 +7,7 @@
         {
             "taskName": "build",
             "args": [
-                "${workspaceRoot}/DiceApi.csproj"
+                "${workspaceRoot}/DiceApi.sln"
             ],
             "isBuildCommand": true,
             "problemMatcher": "$msCompile"

@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BC837C85-2F59-461F-9BB4-BBAFCB3236BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceApi", "DiceApi\DiceApi.csproj", "{62954449-EAE2-49E4-9305-A4628FA050CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceApi", "src\DiceApi\DiceApi.csproj", "{62954449-EAE2-49E4-9305-A4628FA050CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceApi.UnitTests", "DiceApi.UnitTests\DiceApi.UnitTests.csproj", "{EAF545EC-E6AB-4BC5-85F8-8368836A818D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceApi.UnitTests", "src\DiceApi.UnitTests\DiceApi.UnitTests.csproj", "{EAF545EC-E6AB-4BC5-85F8-8368836A818D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceApi.IntegrationTests", "src\DiceApi.IntegrationTests\DiceApi.IntegrationTests.csproj", "{2FF831DD-ABAD-45A5-B9C2-BA5A56DC2A39}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceApi.IntegrationTests", "DiceApi.IntegrationTests\DiceApi.IntegrationTests.csproj", "{2FF831DD-ABAD-45A5-B9C2-BA5A56DC2A39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,8 @@
+language: csharp
+mono: none
+dist: trusty
+dotnet: 2.0.0
+script:
+  - dotnet build -c Release -f netcoreapp2.0
+  - dotnet test -c Release -f netcoreapp2.0 DiceApi.UnitTests/DiceApi.UnitTests.csproj
+  - dotnet test -c Release -f netcoreapp2.0 DiceApi.IntegrationTests/DiceApi.IntegrationTests.csproj

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2017.2/system/resharper-host/local/Transient/ReSharperHost/v10/SolutionCaches/_DiceApi.596326584.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.2.0/build/netcoreapp1.0/xunit.runner.reporters.netstandard15.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.2.0/build/netcoreapp1.0/xunit.runner.utility.netstandard15.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.2.0/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="DiceApi.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="src" t="Include">
+        <e p="DiceApi" t="IncludeRecursive">
+          <e p="Controllers" t="Include">
+            <e p="StatusController.cs" t="Include" />
+          </e>
+          <e p="DiceApi.csproj" t="IncludeRecursive" />
+          <e p="Program.cs" t="Include" />
+          <e p="Startup.cs" t="Include" />
+          <e p="appsettings.Development.json" t="Include" />
+          <e p="appsettings.json" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.0" t="Include">
+                <e p="DiceApi.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="wwwroot" t="Include" />
+        </e>
+        <e p="DiceApi.IntegrationTests" t="IncludeRecursive">
+          <e p="DiceApi.IntegrationTests.csproj" t="IncludeRecursive" />
+          <e p="StatusRoutingTests.cs" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.0" t="Include">
+                <e p="DiceApi.IntegrationTests.AssemblyInfo.cs" t="Include" />
+                <e p="DiceApi.IntegrationTests.Program.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="DiceApi.UnitTests" t="IncludeRecursive">
+          <e p="DiceApi.UnitTests.csproj" t="IncludeRecursive" />
+          <e p="StatusControllerTests.cs" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.0" t="Include">
+                <e p="DiceApi.UnitTests.AssemblyInfo.cs" t="Include" />
+                <e p="DiceApi.UnitTests.Program.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+    </e>
+  </component>
+</project>

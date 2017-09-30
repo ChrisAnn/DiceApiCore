@@ -11,6 +11,7 @@
       <e p="src" t="Include">
         <e p="DiceApi" t="IncludeRecursive">
           <e p="Controllers" t="Include">
+            <e p="DiceController.cs" t="Include" />
             <e p="StatusController.cs" t="Include" />
           </e>
           <e p="DiceApi.csproj" t="IncludeRecursive" />
@@ -43,6 +44,7 @@
         </e>
         <e p="DiceApi.UnitTests" t="IncludeRecursive">
           <e p="DiceApi.UnitTests.csproj" t="IncludeRecursive" />
+          <e p="DiceControllerTests.cs" t="Include" />
           <e p="StatusControllerTests.cs" t="Include" />
           <e p="bin" t="ExcludeRecursive" />
           <e p="obj" t="ExcludeRecursive">
